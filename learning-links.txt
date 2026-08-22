@@ -1,0 +1,12 @@
+CloudFormation
+https://daneshly.me/courses/?sort=relevance&pg=12&s=cloudformation&page=1
+https://daneshly.me/pluralsight-aws-infrastructure-as-code-with-cloudformation/
+https://daneshly.me/linkedin-introduction-to-aws-cloudformation/
+https://daneshly.me/cloud-academy-advanced-use-of-aws-cloudformation/
+https://daneshly.me/cloud-academy-aws-cloudformation-introduction-to-infrastructure-as-code/
+https://daneshly.me/udemy-hands-on-introduction-to-iac-with-aws-cloudformation/
+https://daneshly.me/coursera-infrastructure-as-code-and-monitoring/
+https://daneshly.me/udemy-aws-devops-mastery-sdlc-cloud-formation-fault-tolerance/
+https://daneshly.me/linkedin-advanced-aws-cloudformation-for-enterprise/
+https://daneshly.me/udemy-learn-iac-aws-cloudformation/
+https://daneshly.me/udemy-aws-cloudformation-step-by-step-beginner-to-intermediate/
