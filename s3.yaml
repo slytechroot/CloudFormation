@@ -1,0 +1,44 @@
+Mappings:
+    DevMap:
+        Arno:
+            Field: Quality Assurance
+			Env: Testing/Development
+        Alice:
+            Field: Backend developer
+			Env: Production
+			
+
+Parameters:
+    InputBucketName:
+        Type: String
+        Description: Please enter in your desired S3 bucket name.
+    InputDeveloperName:
+        Type: String
+        AllowedValues:
+            - Arno
+            - Alice
+        
+
+
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+        BucketName: !Ref InputBucketName
+        Tags:
+            - Key: Developer
+              Value: !Ref InputDeveloperName
+            - Key: Environment
+              Value: !FindInMap [DevMap, !Ref InputDeveloperName, Env]
+            - Key: Profession
+              Value: !FindInMap [DevMap, !Ref InputDeveloperName, Field]
+              
+            
+    Metadata:
+        Purpose: "Creating an S3 bucket"
+        Reviewed: "02-07-2025"
+        Owner: "John Doe"
+        Contact: "johndoe@gmail.com"
+
+
+
